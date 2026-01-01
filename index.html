@@ -180,7 +180,7 @@
             <p data-i18n="contact_desc">I am currently open to internship and apprenticeship opportunities. Feel free to reach out!</p>
             
             <div class="contact-links">
-                <a href="mailto:youssef.kachmar@email.com" class="contact-pill">
+                <a href="mailto:Heliosxiphas@gmail.com" class="contact-pill">
                     <div class="icon-box"><i class='bx bx-envelope'></i></div>
                     <span>Email Me</span>
                 </a>
@@ -188,7 +188,7 @@
                     <div class="icon-box"><i class='bx bxl-linkedin'></i></div>
                     <span>LinkedIn</span>
                 </a>
-                <a href="#" class="contact-pill">
+                <a href="https://github.com/Zeroualixxx" class="contact-pill">
                     <div class="icon-box"><i class='bx bxl-github'></i></div>
                     <span>GitHub</span>
                 </a>
@@ -196,21 +196,22 @@
         </div>
 
         <!-- Right Side: Form -->
-        <form action="#" class="contact-form">
-            <div class="form-group">
-                <label>Name</label>
-                <input type="text" required>
-            </div>
-            <div class="form-group">
-                <label>Email</label>
-                <input type="email" required>
-            </div>
-            <div class="form-group">
-                <label>Message</label>
-                <textarea required></textarea>
-            </div>
-            <button type="submit" class="submit-btn" data-i18n="btn_send">Send Message <i class='bx bx-send'></i></button>
-        </form>
+        <form action="https://formspree.io/f/xeeqawbq" method="POST" class="contact-form" id="contact-form">
+
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" name="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" required placeholder="your@email.com">
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea name="message" required placeholder="Write your message here..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn" data-i18n="btn_send">Send Message <i class='bx bx-send'></i></button>
+            </form>
 
     </div>
 </section>
@@ -259,6 +260,8 @@
 </div>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script src="script.js"></script>
+<!-- CACHE BUSTER ADDED (?v=2) TO FORCE RELOAD -->
+<script src="script.js?v=2"></script>
 </body>
 </html>
+
