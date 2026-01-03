@@ -19,11 +19,9 @@ document.addEventListener("DOMContentLoaded", function () {
             edu_ista_date: "Sept 2024 - June 2026",
             edu_ista_desc: "Comprehensive training in network architecture, system administration, and infrastructure management.",
             // Fac
-            edu_bio_title: "Biology Studies",
-            edu_bio_date: "Sept 2023 - July 2024",
-            edu_bio_desc: "Developed scientific reasoning, lab safety protocols, and analytical skills.",
+            
             // Bac
-            edu_bac_title: "High School Diploma - Physics",
+            edu_bac_title: "College Diploma - Physics",
             edu_bac_desc: "Focus on Physics and Mathematics.",
             
             section_competence: "Competence",
@@ -456,3 +454,4 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
