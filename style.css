@@ -52,6 +52,22 @@ body.modal-open { overflow: hidden; }
     transform: translateX(-50%) translateY(-50%);
     object-fit: cover;
 }
+.skill-icon {
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    text-shadow: 0 0 15px var(--primary);
+    display: flex;
+    
+    
+}
+
+.skill-icon svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: var(--primary);
+    filter: drop-shadow(0 0 15px var(--primary));
+}
 
 .video-overlay {
     position: fixed;
